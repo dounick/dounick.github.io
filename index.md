@@ -4,14 +4,14 @@ layout: default
 
 ## About Me
 
-<img class="profile-picture" src="Subject.png">
+I am a first year Ph.D. student in the [UT Austin Computational Linguistics group]{https://sites.utexas.edu/compling/}, where I am fortunate to be advised by [Kyle Mahowald]{https://mahowak.github.io/}. 
 
-stuff here
+## Education
+**Ph.D in Linguistics**, The University of Texas at Austin, 2024 -
+**B.S. Mathematics**, University of California Santa Barbara, 2020 - 2024
 
-## Research Interest
+## Select Papers
+1. Yao, Q. & Todd, S. [BERT’s Insights Into the English Dative and Genitive Alternations](https://aclanthology.org/2024.scil-1.6.pdf). in Proceedings of the Society for
+Computation in Linguistics 2024 52–62 (2024). 
 
-stuff
 
-## Publications
-
-stuff

@@ -1,8 +1,8 @@
-ttle: Qing Yao
+title: Qing Yao
 url: "https://dounick.github.io"
 remote_theme: ankitsultana/researcher@gem
 markdown: kramdown
-#ins_logo: "./bits-logo.png"
+# ins_logo: "./bits-logo.png"
 
 tracking_id: #
 
@@ -16,6 +16,6 @@ sass:
 
 nav:
  - name: "CV"
-   link: "CV.pdf"
- - name: "Google"
-   link: "https://www.google.com"
+   link: "cv.pdf"
+ - name: "Scholar"
+   link: "https://scholar.google.com/citations?user=kCe3H3YAAAAJ&hl=en"
