@@ -17,5 +17,5 @@ sass:
 nav:
  - name: "CV"
    link: "CV.pdf"
- - name: "Contact"
-   link: "google.com"
+ - name: "Google"
+   link: "https://www.google.com"
