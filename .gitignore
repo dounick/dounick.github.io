@@ -1,0 +1,18 @@
+# Private history backups must stay local.
+.private-backups/
+
+# macOS metadata
+.DS_Store
+
+# LaTeX build artifacts (keep the published PDF)
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+
+# Local Jekyll output
+_site/
+.jekyll-cache/
+.sass-cache/

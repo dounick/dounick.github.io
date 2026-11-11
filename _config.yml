@@ -1,0 +1,25 @@
+title: Qing Yao
+description: "Qing Yao — PhD student in Computational Linguistics at UT Austin"
+url: "https://dounick.github.io"
+remote_theme: ankitsultana/researcher@gem
+
+plugins:
+  - jekyll-sitemap
+
+markdown: kramdown
+
+tracking_id: #
+
+#footer: yes
+#footer_url: "https://github.com/dounick"
+#footer_text: "Page design by Ankit Sultana"
+
+sass:
+    style: compressed
+    sass_dir: _sass
+
+nav:
+ - name: "CV"
+   link: "cv.pdf"
+ - name: "Scholar"
+   link: "https://scholar.google.com/citations?user=kCe3H3YAAAAJ&hl=en"

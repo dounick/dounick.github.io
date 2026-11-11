@@ -1,0 +1,138 @@
+\documentclass[11pt, letterpaper]{article}
+
+% --- Packages ---
+\usepackage[margin=0.75in]{geometry}
+\usepackage{enumitem}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{etaremune}
+
+
+% --- Hyperlink styling ---
+\hypersetup{
+  colorlinks=true,
+  urlcolor=MidnightBlue,
+  linkcolor=black,
+}
+
+% --- Section formatting ---
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\vspace{0.2em}\hrule]
+\titlespacing{\section}{0pt}{1em}{0.5em}
+
+% --- No page numbers (uncomment if you want them) ---
+% \pagenumbering{gobble}
+
+% --- List styling ---
+\setlist[itemize]{leftmargin=1.5em, itemsep=0pt, topsep=2pt}
+\setlist[enumerate]{leftmargin=1.5em, itemsep=0.4em, topsep=2pt}
+
+% --- Entry helpers ---
+% Two-column line: left-aligned text, right-aligned text
+\newcommand{\entry}[2]{#1 \hfill #2}
+
+% Table environment for aligned sections (awards, teaching, etc.)
+% Usage: \begin{cvtable}{first-col-width} ... \end{cvtable}
+\newenvironment{cvtable}[1]{%
+  \begin{tabular}{@{}p{#1} p{\dimexpr\textwidth-#1-4em} r@{}}
+}{%
+  \end{tabular}
+}
+
+\begin{document}
+
+% --- Header ---
+\begin{center}
+  {\LARGE\bfseries Qing Yao} \\[0.4em]
+  \href{mailto:qyao@utexas.edu}{qyao@utexas.edu} \quad$\vert$\quad
+  \href{https://dounick.github.io}{website} \quad$\vert$\quad
+  \href{https://scholar.google.com/citations?user=kCe3H3YAAAAJ&hl=en}{scholar}
+\end{center}
+
+% ============================================================
+\section*{Education}
+
+\entry{\textbf{The University of Texas at Austin}}{08/2024 -- Present} \\
+\entry{Ph.D. in Linguistics}{Austin, TX} \\
+Advisor: \href{https://mahowak.github.io/}{Kyle Mahowald}
+
+\entry{\textbf{University of California, Santa Barbara}}{09/2020 -- 03/2024} \\
+\entry{B.S. with Highest Honors, Mathematics, College of Creative Studies}{Santa Barbara, CA} \\
+Advisors: \href{https://web.math.ucsb.edu/~suitang/}{Sui Tang} (Mathematics), \href{https://sjtodd.github.io/}{Simon Todd} (Linguistics)
+
+% ============================================================
+
+\section*{Experience}
+\entry{\textbf{Meta, FAIR Alignment}}{05/2026 -- 08/2026} \\
+\entry{Research Scientist Intern (Part Time Student Researcher until 12/2026)}{New York City, NY} \\
+Host: \href{https://ai.meta.com/people/1396973444287406/adina-williams/}{Adina Williams}
+
+% ============================================================
+
+\section*{Publications}
+
+\begin{etaremune}
+\item \textbf{Q. Yao}, S. Boguraev, T. Pimentel, K. Mahowald. The Emergence and Sparsification of a Syntactic Circuit. In EMNLP (Main, Oral), 2026.
+\item K. Mo, T. Yang, C. Shaib, \textbf{Q. Yao}, W. Rudman, R. Kouzy, K. Misra, B. Wallace, J. Li. What's in a Name? Morphological Shortcuts by LLMs in Pharmacology. In EMNLP (Main), 2026.
+\item D. Sutter*, \textbf{Q. Yao*}, S. Boguraev*, J. Minder, A. Di Maio, T. Hofmann, K. Mahowald, T. Pimentel. Parasite Features: Causal Abstraction Through Spurious Pathways. In NeuRIPS, 2026
+\item S. Boguraev*, \textbf{Q. Yao*}, K. Mahowald. 2026. \href{https://arxiv.org/pdf/2602.23547}{France or Spain or Germany or France: A Neural Account of Non-Redundant Redundant Disjunctions}. In Proceedings of the Annual Meeting of the Cognitive Science Society, Volume 48, 2026.
+  \item \textbf{Q. Yao}, K. Misra, L. Weissweiler, K. Mahowald.
+    \href{https://arxiv.org/abs/2503.20850}{Both Direct and Indirect Evidence Contribute to Dative Alternation Preferences in Language Models}.
+    In \textit{Second Conference on Language Modeling (COLM)}, 2025.
+
+  \item L. Huang, D. Li, S. Tang, \textbf{Q. Yao}.
+    \href{https://link.springer.com/article/10.1007/s00041-025-10177-4}{Random Space-Time Sampling and Reconstruction of Sparse Bandlimited Graph Diffusion Field}.
+    \textit{Journal of Fourier Analysis and Applications}, 2025.
+
+  \item \textbf{Q. Yao}, S. Todd.
+    \href{https://aclanthology.org/2024.scil-1.6.pdf}{BERT's Insights Into the English Dative and Genitive Alternations}.
+    In \textit{Proceedings of the Society for Computation in Linguistics (SCiL)}, 2024.
+
+  \item \textbf{Q. Yao}, L. Huang, S. Tang.
+    \href{https://ieeexplore.ieee.org/abstract/document/10095406}{Space-Time Variable Density Samplings for Sparse Bandlimited Graph Signals Driven by Diffusion Operators}.
+    In \textit{IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}. 2023.
+\end{etaremune}
+
+% ============================================================
+\section*{Invited Talks}
+
+\begin{etaremune}
+  \item \textit{Learning Syntax from Scratch: Circuit Emergence, Sparsification, and Pre-pretraining}. \\ Computational Linguistics Seminar at the Institute for Logic, Language and Computation (ILLC), the University of Amsterdam. \hfill 10/2026
+
+  \item \textit{Both Direct and Indirect Evidence Contribute to Dative Alternation Preferences in Language Models} (Invited Talk). \\
+    LLMs and the Brain Conference, Rice University. \hfill 09/2025
+
+  \item \textit{Graph Signal Sampling and Recovery via Compressed Sensing}. \\
+    Research and Creative Activities Conference, UCSB College of Creative Studies. \hfill 11/2022
+\end{etaremune}
+
+% ============================================================
+\section*{Awards}
+
+\begin{cvtable}{7em}
+  UT Austin & \textbf{Donald D. Harrington Graduate Fellowship} & 2024 \\
+  UCSB      & \textbf{Top senior paper in linguistics} & 2024 \\
+            & \textbf{Undergraduate Research and Creative Activities Grant} (\$400) & 2023 \\
+            & \textbf{CCS Traveling Undergraduate Research Fellowship} (\$2000 for ICASSP) & 2023 \\
+            & \textbf{CCS Summer Undergraduate Research Fellowship} (\$4000) & 2022 \\
+\end{cvtable}
+
+% ============================================================
+\section*{Teaching Experience}
+
+\begin{cvtable}{7em}
+  UCSB & \textbf{Reader} for MATH CS 121 -- Probability. Winter 2023 \\
+       & \textbf{Reader} for MATH 8 -- Transition to Higher Mathematics. Fall, Winter 2022 \\
+\end{cvtable}
+
+% ============================================================
+\section*{Service}
+
+\begin{itemize}
+\item   \textbf{Reviewing} ACL ARR 2026, CogSci 2026, ICASSP 2024
+  \item \entry{\textbf{Organizing Committee} for the Annual Meeting of Texas Linguistics Society}{2026}
+  \item \entry{\textbf{Faculty Hiring Committee} for UT Linguistics}{2025}
+\end{itemize}
+
+\end{document}
